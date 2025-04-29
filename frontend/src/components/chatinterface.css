@@ -1,0 +1,91 @@
+.chat-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9fb;
+}
+
+.chat-header {
+  background-color: #3f3fff;
+  color: white;
+  padding: 12px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.chat-box {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bot-msg {
+  align-self: flex-start;
+  background: #eee;
+  padding: 10px 14px;
+  border-radius: 12px;
+  max-width: 70%;
+  white-space: pre-wrap;
+}
+
+.user-msg {
+  align-self: flex-end;
+  background: #d4edda;
+  padding: 10px 14px;
+  border-radius: 12px;
+  max-width: 70%;
+  white-space: pre-wrap;
+}
+
+.input-area {
+  padding: 10px 20px;
+  background: #fff;
+  border-top: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.quick-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.quick-options button {
+  border: 1px solid #999;
+  border-radius: 20px;
+  background: #f0f0f0;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.quick-options button:hover {
+  background-color: #d0d0ff;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.input-wrapper button {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
